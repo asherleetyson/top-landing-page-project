@@ -15,6 +15,7 @@ html, body {
 .logo {
     margin-left: 275px;
     font-size: 24px;
+    font-weight: 600;
 }
 
 .menu {
@@ -95,14 +96,6 @@ html, body {
     padding: 7px 28px;
     border-radius: 8px;
     margin-top: -5px;
-}
-
-.hero-section-1 {
-
-}
-
-.hero-section-2 {
-
 }
 
 .scribble-hero-picture {
@@ -219,21 +212,29 @@ html, body {
 
 #body-3 {
     background-color: white;
-    display: flex;
+    display: inline-flex;
     justify-content: center;
+    align-items: center;
     padding: 80px 0px;
+    width: 100%;
 }
 
 .CTA-section-container {
     background-color:#3882F6;
     padding-left: 80px;
     padding-right: 80px;
-    padding-bottom: 40px;
+    padding-bottom: 35px;
+    border-radius: 10px;
+    width: 1000px;
+    display: inline-block;
 }
 
 .CTA-section {
     background-color:#3882F6;
     color: white;
+    display: inline-block;
+    margin-left: 50px;
+    padding-top: 20px;
 }
 
 .CTA-section h4 {
@@ -247,7 +248,8 @@ html, body {
 }
 
 .CTA-section-button {
-
+  display: inline-block;
+  margin-left: 275px;
 }
 
 .CTA-button-styling {
@@ -257,6 +259,7 @@ html, body {
     padding: 7px 28px;
     border-radius: 8px;
     margin-top: -5px;
+    border-color: white;
 }
 
 /* -----------------------------------------------*/
