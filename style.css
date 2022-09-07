@@ -1,5 +1,7 @@
-html {
+html, body {
     background-color: #1F2937;
+    margin: 0;
+    padding: 0;
 }
 
 .navbar{
@@ -156,4 +158,113 @@ html {
     color: #2f2f2f;
     font-size: 18px;
     text-align: center;
+}
+
+@media only screen and (max-width: 796px) {
+    .random-information-subimages {
+        display: block;
+        margin-top: -45px;
+    }
+    .random-information-subimages img {
+        width: 100%;
+    }
+    .random-information-subimages figcaption {
+        margin-bottom: 30px;
+        margin-top: 10px;
+    }
+}
+
+/* -----------------------------------------------*/
+
+#body-2 {
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 100px 0px;
+}
+
+.quote-1 {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.quote-1 h1 {
+    font-style: italic;
+    font-weight: 300;
+    width: 40%;
+    font-size: 36px;
+}
+
+.quote-2 {
+    margin-top: -20px;
+    margin-left: 450px;
+    display: flex;
+}
+
+.quote-2 h3 {
+    font-weight: 800;
+    font-size: 24px;
+}
+
+@media only screen and (max-width: 796px) {
+    .quote-2 {
+        margin-left: 0px;
+    }
+}
+
+/* -----------------------------------------------*/
+
+#body-3 {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    padding: 80px 0px;
+}
+
+.CTA-section-container {
+    background-color:#3882F6;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-bottom: 40px;
+}
+
+.CTA-section {
+    background-color:#3882F6;
+    color: white;
+}
+
+.CTA-section h4 {
+    font-size: 24px;
+}
+
+.CTA-section h5 {
+    font-size: 18px;
+    margin-top: -25px;
+    font-weight: 200;
+}
+
+.CTA-section-button {
+
+}
+
+.CTA-button-styling {
+    font-size: 18px;
+    background-color: #3882F6;
+    color: white;
+    padding: 7px 28px;
+    border-radius: 8px;
+    margin-top: -5px;
+}
+
+/* -----------------------------------------------*/
+
+footer p {
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin: 38px 0px;
+    font-size: 20px;
 }
